@@ -10,7 +10,7 @@ const HomePage = () => {
           {/* Left Section: Logo and Name */}
           <div className="flex items-center space-x-3">
             <img
-              src="/assets/logo.png"
+              src="./assets/logo.png"
               alt="Fusion Automation Logo"
               className="h-12 w-auto border-2 border-white rounded-full p-1" // Logo with border and rounded styling
             />
@@ -62,7 +62,7 @@ const HomePage = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat filter"
           style={{
-            backgroundImage: "url('/assets/bg.png')", // Replace with your image path
+            backgroundImage: "url('./assets/bg.png')", // Replace with your image path
             filter: "blur(12px)",
           }}
         ></div>
