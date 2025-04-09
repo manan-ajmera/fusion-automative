@@ -13,7 +13,7 @@ const HomePage = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat filter"
           style={{
-            backgroundImage: "url('./assets/bg.png')", // Replace with your image path
+            backgroundImage: "url('./bg.png')", // Replace with your image path
             filter: "blur(12px)",
           }}
         ></div>
