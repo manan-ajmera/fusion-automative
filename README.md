@@ -1,10 +1,7 @@
-Perfect! Since it’s a client site, I’ll adjust the README to reflect that. Here's an improved version that fits a client project context:
 
----
+Fusion Automotive 🚗⚙️
 
-# Fusion Automotive 🚗⚙️
-
-[Live Site](https://fusion-automative-8fbk.vercel.app/)
+https://fusion-automative-8fbk.vercel.app/
 
 Fusion Automotive is a professional, fully responsive website built for a real-world client in the automotive industry. Designed to enhance their online presence, the site highlights their services, expertise, and customer contact options in a clean, modern layout.
 
@@ -47,13 +44,3 @@ The site will be live at `http://localhost:3000`
 
 This project was created as part of a client engagement. Certain assets and content are specific to the client and should not be reused without permission.
 
-## License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-Would you like me to also give you a few optional extras? (like:  
-- Badges for the top of the README  
-- Screenshots section  
-- "Contact me for freelance work" at the end, if you want to use this as a portfolio piece too? 👀)
