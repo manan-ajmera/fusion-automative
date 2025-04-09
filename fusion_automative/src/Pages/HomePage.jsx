@@ -1,60 +1,11 @@
 import React from 'react';
-
+import Navbar from './navbar';
 const HomePage = () => {
   return (
     <div class="w-full">
     {/* Navbar */}
-    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white shadow-lg z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Left Section: Logo and Name */}
-          <div className="flex items-center space-x-3">
-            <img
-              src="./assets/logo.png"
-              alt="Fusion Automation Logo"
-              className="h-12 w-auto border-2 border-white rounded-full p-1" // Logo with border and rounded styling
-            />
-            <span className="text-2xl font-semibold">Fusion Automation</span>
-          </div>
-
-          {/* Right Section: GST Number and Navigation Links */}
-          <div className="flex flex-col items-end space-y-2">
-            {/* GST Number */}
-            <div className="text-sm text-gray-300">
-              GST No. 24EOCPP0425Q1ZP
-            </div>
-
-            {/* Navigation Links */}
-            <div className="flex space-x-6">
-              <a
-                href="#about"
-                className="text-lg font-medium text-gray-300 hover:text-teal-400 transition duration-300"
-              >
-                About
-              </a>
-              <a
-                href="#services"
-                className="text-lg font-medium text-gray-300 hover:text-teal-400 transition duration-300"
-              >
-                Services
-              </a>
-              <a
-                href="#team"
-                className="text-lg font-medium text-gray-300 hover:text-teal-400 transition duration-300"
-              >
-                Team
-              </a>
-              <a
-                href="#contact"
-                className="text-lg font-medium text-gray-300 hover:text-teal-400 transition duration-300"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+      <Navbar />
+      <div className="h-16"></div> {/* Spacer for fixed navbar */}
 
       {/* About Section */}
       <section id="about" className="relative min-h-screen px-6 py-16">
